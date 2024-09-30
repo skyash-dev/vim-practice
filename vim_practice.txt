@@ -1,0 +1,32 @@
+# Welcome to your Vim practice file!
+# Below are some lines to help you practice basic Vim movements and commands.
+
+# Try moving around using normal mode keys: 
+# h (left), l (right), j (down), k (up)
+
+This is the first line of the file.
+This is the second line of the file.
+This is the third line of the file.
+This is the fourth line of the file.
+
+# Try jumping to the beginning (0) and end ($) of lines.
+# Example: Move to this line and press 0 to go to the start, $ to go to the end.
+
+# Now, try using e (move to the end of the word) and b (move back to the beginning of a word).
+# Navigate through the words in this sentence and practice.
+
+# Use gg to jump to the top of the file and G to jump to the bottom.
+# Try them out now!
+
+# Try entering visual mode with v, and select some text.
+# You can cut (d) or copy (y) the selected text and paste it somewhere else (p).
+
+# Insert mode practice: Move to any line, press 'i' to enter insert mode, and type away!
+# Remember, you can always press ESC to go back to normal mode.
+
+# Extra commands:
+# :q to quit, :q! to quit without saving, :wq! to save and quit.
+# Undo with 'u' and redo with ctrl + r.
+# Use / followed by a search term to find text in the file.
+
+# Go to a specific line with :line_number (e.g., :5 to go to line 5).
