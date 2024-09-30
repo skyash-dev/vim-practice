@@ -4,9 +4,12 @@
 // h (left), l (right), j (down), k (up)
 
 // Task 1: Write a function that takes two numbers and returns their sum.
-function add(a, b) {
-    return a + b;
+function sum(a,b){
+return a+b;
 }
+
+let ans = sum(5,10)
+console.log(ans)
 
 // Practice editing the function:
 // - Change the function name to 'sum'.
@@ -14,8 +17,16 @@ function add(a, b) {
 
 // Task 2: Write a function to check if a number is even or odd.
 function isEven(num) {
-    return num % 2 === 0;
+	if(num%2==0){
+		return 'Even';
+	}
+	else{
+		return 'Odd';
+	}
+
 }
+let res = isEven(6)
+console.log(res)
 
 // - Modify the function to return 'Even' or 'Odd' instead of true/false.
 // - Add a test case with a number of your choice.
@@ -26,9 +37,6 @@ let numbers = [1, 2, 3, 4, 5];
 numbers.forEach(function(number) {
     console.log(number);
 });
-
-// - Try changing the array values.
-// - Write a new line of code to sum up the values in the array using the reduce method.
 
 // Extra JavaScript tasks for you to explore:
 // 1. Create an object representing a person with name and age.
